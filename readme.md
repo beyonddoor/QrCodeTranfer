@@ -6,31 +6,9 @@ QrTransfer trys to make it easy to transfer files with display devices only, no 
 
 ## Install
 
-Install python modules
-
+Install module from PyPI:
 ```sh
-pip3 install pypng
-pip3 install pillow
-pip3 install PyQt5
-pip3 install pyzbar
-pip3 install pyqrcode
-```
-
-Install `zbar`
-
-```sh
-brew install zbar
-```
-
-```py
-import pyqrcode
-qr = pyqrcode.create("HORN O.K. PLEASE.")
-qr.png("horn.png", scale=6)
-
-import qrtools
-qr = qrtools.QR()
-qr.decode("horn.png")
-print(qr.data)
+pip install QrCodeTransfer
 ```
 
 ## TODO
