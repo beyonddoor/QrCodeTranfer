@@ -2,7 +2,7 @@
 
 ## What is QrTransfer?
 
-QrTransfer trys to make it easy to transfer files without display devices only.
+QrTransfer trys to make it easy to transfer files with display devices only, no network available.
 
 ## Install
 
